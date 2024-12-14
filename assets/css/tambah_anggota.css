@@ -1,0 +1,155 @@
+.content-wrapper {
+    margin-left: 250px; /* Adjust based on your sidebar width */
+    padding: 30px;
+    background: #f8f9fc;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-title {
+    color: #2e384d;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card {
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.card-header {
+    background: #4e73df;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+}
+
+.card-header h6 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card-header i {
+    margin-right: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    color: #2e384d;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-control {
+    height: 45px;
+    border: 1px solid #e1e5eb;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+select.form-control {
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,...");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 10px;
+    padding-right: 30px;
+}
+
+textarea.form-control {
+    height: auto;
+    padding: 15px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn {
+    height: 45px;
+    padding: 0 25px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: #4e73df;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #2e59d9;
+}
+
+.btn-secondary {
+    background: #858796;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: #717484;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.invalid-feedback {
+    color: #e74a3b;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+        .content-wrapper {
+            margin-left: 0;
+            padding: 20px;
+        }
+    }
+    
+    .card-body {
+        padding: 20px;
+    }
+}
+
+.sidebar-toggled .content-wrapper {
+    margin-left: 100px; /* Adjust based on your collapsed sidebar width */
+}
